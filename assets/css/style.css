@@ -145,6 +145,7 @@ h2{
     background:#f9f9f9 url(../img/marcador.png) no-repeat left center;
     padding-left: 20px;
     color: #a1a1a1;
+    box-shadow: 2px 2px 6px #000;
 }
 
 /* ---------- FORMATAR FORMULARIOS ---------- */ 
@@ -197,6 +198,39 @@ h3{
     color: #000;
 
 }
+
+/* ---------- FORMATANDO LISTA DE NOTICIAS ---------- */ 
+#lista-noticias li {
+    padding: 2px;
+    height: 62px;
+    border-bottom: 2px solid #ccc;
+}
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color:#3e7ab9
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    box-shadow: 2px 2px 6px #000;
+    cursor: pointer;
+}
+
+
 
 /* ---------- RODAPE ---------- */ 
 
